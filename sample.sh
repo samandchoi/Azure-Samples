@@ -1,4 +1,4 @@
 #!/bin/bash
 
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.275.b01-0.el7_9.x86_64
-sudo -u igloosec . /data/SIEM/elasticsearch/startES
+su -u igloosec -c ". /data/SIEM/elasticsearch/startES"
